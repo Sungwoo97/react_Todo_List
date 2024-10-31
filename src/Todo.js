@@ -19,7 +19,7 @@ const Todo = ({data, checkUpdate, deleteTodo, updateTodo})=>{
      className = 'checked';
   }
 
-  if(mode == 'edit'){
+  if(mode === 'edit'){
     className += ' visually-hidden';
     formClass = '';
   }
